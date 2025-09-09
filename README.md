@@ -3,16 +3,17 @@
 - JSP Model 2(디자인 패턴)
 - JDBC
 
-## 새 프로젝트 만들기
+## 1. 새 프로젝트 생성
 
 New Dynamic Web Project
 
 1. Project name: "Todo"
 2. Context root: "todo"
 3. web.xml 체크
+4. 환경: Tomcat 9
 
 ---
-## 프로젝트 설정(파일구조, 라이브러리, DB)
+## 2. 프로젝트 설정(파일구조, 라이브러리, DB)
 
 #### DB
 
@@ -45,6 +46,8 @@ New Dynamic Web Project
 
 ---
 
+## **추가 필기
+
 #### 405 에러
 
 - GET 방식 -> doGet 호출
@@ -52,7 +55,7 @@ New Dynamic Web Project
 
 ---
 
-## 작업 순서
+## 3. 작업 순서
 
 - 어떤 객체의 업무가 증가 -> 코드 관리 불편 & 가독성 저하
 - 업무를 분리(각각의 클래스 생성)
