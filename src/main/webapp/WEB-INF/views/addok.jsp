@@ -12,11 +12,22 @@
 </head>
 <body>
 	
+	<!-- addok.jsp -->
+	<%-- ${result} --%>
+	
+	
 	
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script src="https://bit.ly/4cMuheh"></script>
 	<script>
+		<c:if test="${result == 1}">
+			location.href= '/todo/main.do';
+		</c:if>
 		
+		<c:if test="${result == 0}">
+			alert('failed');
+			history.back();
+		</c:if>
 	</script>
 </body>
 </html>

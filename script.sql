@@ -15,3 +15,5 @@ INSERT INTO tblTodo (seq, todo, state, regdate) VALUES (seqTodo.nextVal, '강아
 INSERT INTO tblTodo (seq, todo, state, regdate) VALUES (seqTodo.nextVal, '고양이 목욕하기', DEFAULT, DEFAULT);
 
 SELECT * FROM tblTodo;
+
+UPDATE TBLTODO SET state = ? WHERE seq = ?;
