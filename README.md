@@ -7,8 +7,8 @@
 
 New Dynamic Web Project
 
-1. Project name: "Memo"
-2. Context root: "memo"
+1. Project name: "Todo"
+2. Context root: "todo"
 3. web.xml 체크
 
 ---
