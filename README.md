@@ -121,4 +121,11 @@ New Dynamic Web Project
 16. main.jsp
     1. 삭제 이벤트 걸고 delok.do로 이동, 어떤 할일을 삭제해야 하는지 전달 필요
     2. seq를 넘겨줘야 함
-
+17. DelOk.java
+    1. 데이터 가져오기(seq)
+    2. DB작업 -> delete
+    3. JSP 호출
+18. TodoDAO.java
+    1. del() 메서드 작성
+19. delok.jsp
+    1. 결과값에 따른 처리

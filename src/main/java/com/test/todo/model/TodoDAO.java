@@ -103,5 +103,21 @@ public class TodoDAO {
 		}
 		return 0;
 	}
+
+	//DelOk 서블릿이 할일을 줄테니 delete문을 실행
+	public int del(String seq) {
+		try {
+			String sql = "DELETE FROM tbltodo WHERE seq = ?";
+			
+			pstat = conn.prepareStatement(sql);
+			pstat.setString(1, seq);
+			
+			return pstat.executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return 0;
+	}
 	
 }
